@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Registro"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_drawable">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/falling_sky_bold_plus"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Registro de Cuenta"
+        android:paddingBottom="50dp"
+
+        />
+
+    <EditText
+        android:background="@drawable/corner_small_rectangle"
+        android:fontFamily="@font/falling_sky_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Nombre de Usuario:"
+        android:backgroundTint="@color/transparent"
+        android:maxLines="1"
+        android:id="@+id/user"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:paddingBottom="10dp"/>
+    <EditText
+        android:background="@drawable/corner_small_rectangle"
+        android:fontFamily="@font/falling_sky_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Correo:"
+        android:backgroundTint="@color/transparent"
+        android:maxLines="1"
+        android:id="@+id/regmail"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:paddingBottom="10dp"/>
+    <EditText
+        android:background="@drawable/corner_small_rectangle"
+        android:fontFamily="@font/falling_sky_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Numero de celular:"
+        android:backgroundTint="@color/transparent"
+        android:maxLines="1"
+        android:id="@+id/regphone"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:paddingBottom="10dp"/>
+    <EditText
+        android:background="@drawable/corner_small_rectangle"
+        android:fontFamily="@font/falling_sky_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:inputType="textPassword"
+        android:hint="Contraseña:"
+        android:backgroundTint="@color/transparent"
+        android:maxLines="1"
+        android:id="@+id/regpassword"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp" />
+    <EditText
+        android:background="@drawable/corner_small_rectangle"
+        android:fontFamily="@font/falling_sky_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:inputType="textPassword"
+        android:hint="Confirma la contraseña:"
+        android:backgroundTint="@color/transparent"
+        android:maxLines="1"
+        android:id="@+id/passwordconfirmation"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registernow"
+        android:fontFamily="@font/falling_sky_bold_plus"
+        android:background="@drawable/corner_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Registrarse" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:fontFamily="@font/falling_sky_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Ya tienes una cuenta?" />
+        <TextView
+            android:layout_marginStart="5dp"
+            android:id="@+id/joinnow"
+            android:fontFamily="@font/falling_sky_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inicia sesión ahora"
+            />
+
+
+
+    </LinearLayout>
+</LinearLayout>

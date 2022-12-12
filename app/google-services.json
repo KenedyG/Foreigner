@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "749526354491",
+    "project_id": "foreigner-4c329",
+    "storage_bucket": "foreigner-4c329.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749526354491:android:af1c8f06e4c4fb1bd26a1e",
+        "android_client_info": {
+          "package_name": "com.example.Foreigner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749526354491-gsqd4m0kp403uoicnf0gfj3rboemv83b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Foreigner",
+            "certificate_hash": "d785f379b8ed549815519667fc8a2be09c685dae"
+          }
+        },
+        {
+          "client_id": "749526354491-de3mtraddt4il6pe40ekoqm43e8k991i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqAJ-YuFga8dMhZfRAqkUsqITZRUrSrJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749526354491-de3mtraddt4il6pe40ekoqm43e8k991i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

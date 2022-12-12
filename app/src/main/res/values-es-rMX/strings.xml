@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Foreigner</string>
+    <string name="main_course">Platillo Principal</string>
+    <string name="side_dish">Guarnición</string>
+</resources>

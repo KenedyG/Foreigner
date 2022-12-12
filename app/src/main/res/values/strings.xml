@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Foreigner</string>
+    <string name="api_key" translatable="false">01c0a2e32fb9421ab42dfccdaf6f3a86</string>
+
+    <string-array name="tags">
+        <item>main course</item>
+        <item>side dish</item>
+        <item>dessert</item>
+        <item>appetizer</item>
+        <item>salad</item>
+        <item>bread</item>
+        <item>breakfast</item>
+        <item>soup</item>
+        <item>beverage</item>
+        <item>sauce</item>
+        <item>marinade</item>
+        <item>fingerfood</item>
+        <item>snack</item>
+        <item>drink</item>
+
+
+    </string-array>
+    <string name="main_course">main course</string>
+    <string name="side_dish">side dish</string>
+
+
+</resources>
